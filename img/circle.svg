@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2429ff;
+      }
+    </style>
+  </defs>
+  <rect id="круг" class="cls-1" width="23" height="23" rx="11.5" ry="11.5"/>
+</svg>
