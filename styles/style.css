@@ -456,7 +456,7 @@ input[type='search']::-webkit-search-results-decoration {
 
 /*Teachers*/
 .teachers__container {
-    margin-bottom: 100px;
+    margin-bottom: 58px;
 }
 
 .teachers__list {
@@ -551,10 +551,33 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 /*Programm*/
+.programm {
+    position: relative;
+}
+
 .programm__container {
-    padding-top: 112px;
     padding-left: 780px;
-    background: url(/img/bigben.png) no-repeat;
+    padding-bottom: 49px;
+    background: url(/img/bigben.png) no-repeat 0 -130px;
+}
+
+.programm__bagel-grey {
+    position: absolute;
+    top: 271px;
+    left: 109px;
+    z-index: -1;
+}
+
+.programm__bagel-blue {
+    position: absolute;
+    top: 198px;
+    left: 167px;
+}
+
+.programm__wave {
+    position: absolute;
+    bottom: 314px;
+    left: 582px;
 }
 
 .programm__title {
@@ -594,13 +617,27 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .programm__about-list {
+    position: relative;
     display: flex;
-
     flex-wrap: wrap;
+    letter-spacing: 2px;
 }
 
 .programm__about-item {
-    width: 300px;
+    width: 330px;
+    margin-bottom: 29px;
+}
+
+.programm__about-item:nth-child(odd) {
+    margin-right: 59px;
+}
+
+.programm__item-title {
+    margin-bottom: 16px;
+}
+
+.programm__item-descr {
+    line-height: 27px;
 }
 
 
