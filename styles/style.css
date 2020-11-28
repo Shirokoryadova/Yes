@@ -30,6 +30,7 @@ body {
     margin: 0;
     font-family: "Gilroy", sans-serif;
     font-weight: 300;
+    letter-spacing: 0.8px;
     color: var(--black-color);
     background-color: #fff;
     min-width: 320px;
@@ -37,7 +38,7 @@ body {
 
 .container {
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 390px;
     max-width: 1920px;
 }
 
@@ -48,6 +49,15 @@ body {
     font-size: 18px;
     font-family: "Gilroy";
     letter-spacing: 0.8px;
+}
+
+.btn-fill {
+    width: 370px;
+    height: 70px;
+    color: #fff;
+    background-color: var(--red-color);
+    border-radius: 40px;
+    transition: color ease-in-out 0.5s, backgruond-color ease-in-out 0.5s;
 }
 
 a {
@@ -64,6 +74,12 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.title {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
 }
 
 * {
@@ -98,7 +114,6 @@ input[type='search']::-webkit-search-results-decoration {
 
 /*Header*/
 .header__container {
-    padding: 0 390px;
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
@@ -128,3 +143,209 @@ input[type='search']::-webkit-search-results-decoration {
 .header__btn:hover {
     border-bottom: 1px solid var(--red-color);
 }
+
+/*Hero*/
+.hero {
+    background: url(/img/english_yes.png) no-repeat 16px 20px;
+}
+
+.hero__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1012px;
+    padding-top: 193px;
+    margin-bottom: 200px;
+    height: 100%;
+}
+
+.hero__container::before {
+    content: url(/img/circle.svg);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 91px;
+    right: 449px;
+}
+
+.hero__container::after {
+    content: url(/img/bagel.svg);
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 284px;
+    top: 257px;
+}
+
+.hero__image {
+    position: absolute;
+    top: -103px;
+    left: 389px;
+}
+
+.hero__title-small {
+    font-size: 34px;
+}
+
+.hero__title {
+    margin-bottom: 50px;
+}
+
+.hero__title::before {
+    content: "";
+    position: absolute;
+    width: 63px;
+    height: 7px;
+    background-color: var(--red-color);
+    bottom: 235px;
+}
+
+.hero__descr {
+    font-size: 18px;
+    max-width: 403px;
+    line-height: 22px;
+    margin-bottom: 98px;
+}
+
+.hero__descr::after {
+    content: url(/img/wave.svg);
+    position: absolute;
+    width: 145px;
+    height: 19px;
+    bottom: 105px;
+    right: 390px;
+}
+
+.btn-fill:hover {
+    color: var(--red-color);
+    background-color: #fff;
+}
+
+/*Situations*/
+.situations {
+    background: url(/img/section2-bg.png) no-repeat 0 -227px;
+}
+
+.situations__container {
+    position: relative;
+    padding-top: 163px;
+    padding-bottom: 227px;
+}
+
+.situations__title {
+    width: 393px;
+}
+
+.situations__title::after {
+    content: url(/img/question.png);
+    position: absolute;
+    top: 127px;
+    left: 662px;
+    width: 145px;
+    height: 220px;
+}
+
+.situations__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.situations__item {
+    display: flex;
+}
+
+.situations__item-1 {
+    justify-content: flex-end;
+    margin-bottom: 84px;
+}
+
+.situations__item-3 {
+    justify-content: flex-end;
+    position: relative;
+    padding-bottom: 239px;
+}
+
+.situations__descr {
+    letter-spacing: 1.9px;
+    line-height: 27px;
+}
+
+.situations__descr-1 {
+    position: relative;
+    padding-top: 105px;
+    margin-right: 22px;
+    width: 270px;
+}
+
+.situations__descr-2 {
+    position: relative;
+    padding-top: 90px;
+    width: 356px;
+}
+
+.situations__descr-3 {
+    position: relative;
+    padding-top: 129px;
+    margin-right: 383px;
+    width: 367px;
+}
+
+.situations__descr-4 {
+    position: relative;
+    padding-top: 132px;
+    width: 285px;
+}
+
+.situations__descr-1::before {
+    content: url(/img/01.png);
+    position: absolute;
+    top: 54px;
+    right: -58px;
+}
+
+.situations__descr-2::before {
+    content: url(/img/02.png);
+    position: absolute;
+    top: 30px;
+    left: -77px;
+}
+
+.situations__descr-3::before {
+    content: url(/img/03.png);
+    position: absolute;
+    top: 81px;
+    right: -79px;
+    z-index: 2;
+}
+
+.situations__descr-4::before {
+    content: "в итоге...";
+    position: absolute;
+    top: 76px;
+    left: -73px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.situations__descr-1::after {
+    content: url(/img/wave.svg);
+    position: absolute;
+    bottom: 65px;
+    right: -46px;
+}
+
+.situations__img-2 {
+    margin-right: 44px;
+}
+
+.situations__img-3 {
+    position: absolute;
+    top: -60px;
+}
+
+.situations__img-4 {
+    margin-right: 39px;
+}
+
+
