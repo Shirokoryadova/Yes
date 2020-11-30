@@ -60,7 +60,7 @@ body {
     color: #fff;
     background-color: var(--red-color);
     border-radius: 40px;
-    transition: color ease-in-out 0.5s, backgruond-color ease-in-out 0.5s;
+    transition: color ease-in-out 0.5s, backgruond-color ease-in-out 0.5s, border ease-in-out 0.5s;
 }
 
 a {
@@ -225,6 +225,7 @@ input[type='search']::-webkit-search-results-decoration {
 .btn-fill:hover {
     color: var(--red-color);
     background-color: #fff;
+    border: 1px solid var(--red-color);
 }
 
 /*Situations*/
@@ -452,7 +453,7 @@ input[type='search']::-webkit-search-results-decoration {
     position: absolute;
     top: -240px;
     right: 0;
-} 
+}
 
 /*Teachers*/
 .teachers__container {
@@ -772,4 +773,244 @@ input[type='search']::-webkit-search-results-decoration {
     width: 475px;
 }
 
+/*Reviews*/
+.reviews__container {
+    padding-bottom: 209px;
+    margin-bottom: 115px;
+}
+
+.reviews__title {
+    position: relative;
+    padding-top: 75px;
+}
+
+.reviews__title::before {
+    content: "";
+    position: absolute;
+    top: 160px;
+    left: 0;
+    width: 65px;
+    height: 7px;
+    background-color: var(--red-color);
+}
+
+.reviews__title::after {
+    content: url(/img/bagel-grey-big.svg);
+    position: absolute;
+    top: -394px;
+    right: -171px;
+    z-index: -1;
+}
+
+.reviews__slider-container {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 109px;
+    max-width: 100%;
+}
+
+.reviews__slider-container::before {
+    content: "";
+    position: absolute;
+    top: 100px;
+    right: 173px;
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+    background-color: var(--blue-color);
+}
+
+.reviews__slider-container::after {
+    content: url(/img/waves.png);
+    position: absolute;
+    right: -100px;
+    top: 15px;
+}
+
+.reviews__swiper-container {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.reviews__swiper-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.reviews__swiper-slide {
+    flex-shrink: 0;
+}
+
+.reviews__swiper-slide {
+    display: flex;
+}
+
+.reviews__img {
+    margin-right: 69px;
+    padding-top: 5px;
+    height: 63%;
+}
+
+.reviews__name {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.reviews__descr {
+    width: 738px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.swiper-scrollbar {
+    bottom: -100px !important;
+    opacity: 1 !important;
+    height: 10px !important;
+}
+
+.swiper-scrollbar-drag {
+    background: var(--red-color) !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--red-color) !important;
+    outline: none !important;
+}
+
+.swiper-button-prev {
+    left: -135px !important;
+}
+
+.swiper-button-next {
+    right: -135px !important;
+}
+
+/*Sign-up*/
+.sign-up__container {
+    position: relative;
+    display: flex;
+    padding-top: 115px;
+    padding-bottom: 180px;
+}
+
+.sign-up__container::before {
+    content: url(/img/wave.svg);
+    position: absolute;
+    top: 67px;
+    left: 743px;
+}
+
+.sign-up__img {
+    position: absolute;
+    top: 53px;
+    left: 203px;
+}
+
+.sign-up__info {
+    padding-top: 75px;
+    padding-left: 621px;
+}
+
+.sign-up__title {
+    position: relative;
+    margin-bottom: 54px;
+}
+
+.sign-up__title::before {
+    content: "";
+    position: absolute;
+    top: 132px;
+    left: 0;
+    width: 65px;
+    height: 7px;
+    background-color: var(--red-color);
+}
+
+.sign-up__title::after {
+    content: url(/img/wave.svg);
+    position: absolute;
+    top: -279px;
+    right: 6px;
+}
+
+.sign-up__descr {
+    position: relative;
+    margin-bottom: 99px;
+    width: 440px;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+
+.sign-up__descr::after {
+    content: url(/img/circles-blue.png);
+    position: absolute;
+    top: -274px;
+    right: -178px;
+}
+
+/*Footer*/
+.footer__socials-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding-top: 81px;
+}
+
+.footer__socials-link:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer__socials--vk,
+.footer__socials--inst,
+.footer__socials--yt,
+.footer__socials--ok {
+    display: inline-block;
+    background: url(/img/socials-sprite.png) no-repeat;
+    cursor: pointer;
+}
+
+.footer__socials--vk {
+    width: 40px;
+    height: 23px;
+}
+
+.footer__socials--inst {
+    background-position: -63px 0;
+    width: 28px;
+    height: 28px;
+}
+
+.footer__socials--yt {
+    background-position: -114px 0;
+    width: 27px;
+    height: 33px;
+}
+
+.footer__socials--ok {
+    background-position: -164px 0;
+    width: 19px;
+    height: 33px;
+}
+
+.footer__contact {
+    position: relative;
+}
+
+.footer__logo {
+    position: absolute;
+    top: -37px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: flex-end;
+    letter-spacing: 1.8px;
+}
+
+.footer__desr {
+    letter-spacing: 2.4px;
+}
 
