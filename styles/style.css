@@ -957,6 +957,7 @@ input[type='search']::-webkit-search-results-decoration {
     align-items: baseline;
     justify-content: flex-end;
     padding-top: 81px;
+    margin-bottom: 16px;
 }
 
 .footer__socials-link:not(:last-child) {
@@ -1000,8 +1001,12 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .footer__logo {
+    position: relative;
+}
+
+.footer__logo-link {
     position: absolute;
-    top: -37px;
+    top: -73px;
 }
 
 .footer__info {
@@ -1012,5 +1017,9 @@ input[type='search']::-webkit-search-results-decoration {
 
 .footer__desr {
     letter-spacing: 2.4px;
+}
+
+.footer__img {
+    margin-bottom: 16px;
 }
 
