@@ -14,4 +14,8 @@ let mySwiper = new Swiper(slider, {
         el: '.swiper-scrollbar',
         hide: true,
     },
+    pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
 });

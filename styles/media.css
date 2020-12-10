@@ -61,543 +61,1197 @@
     }
 }
 
-    @media (max-width: 1600px) {
-        .header__container {
-            padding: 27px 280px;
-        }
-
-        .header__logo-img {
-            padding-top: 6px;
-        }
-
-        .header__contact {
-            font-size: 16px;
-        }
-
-        .address {
-            margin-right: 22px;
-        }
-
-        .tel {
-            margin-right: 21px;
-        }
-
-        .btn {
-            font-size: 16px;
-        }
-
-        .btn-fill {
-            width: 294px;
-            height: 62px;
-            font-size: 14px;
-        }
-
-        .header__btn {
-            margin-right: 11px;
-        }
-
-        .hero {
-            background: url(/img/english_yes.png) no-repeat 16px 61px;
-            background-size: contain
-        }
-
-        .hero__container {
-            padding: 0 209px 0;
-            margin-bottom: 35px;
-        }
-
-        .hero__container::before {
-            top: 32px;
-            right: 386px;
-        }
-
-        .hero__container::after {
-            top: 185px;
-            left: 88px;
-        }
-
-        .hero__image {
-            margin-right: 0;
-            bottom: 22px;
-            left: -35px;
-            top: -22px;
-
-        }
-
-        .hero__info {
-            padding-top: 81px;
-            padding-right: 49px;
-        }
-
-        .hero__title-small {
-            padding-top: 0;
-            margin-bottom: 7px;
-            font-size: 24px;
-            letter-spacing: 1.2px;
-        }
-
-        .title {
-            font-size: 30px;
-            letter-spacing: 1.6px;
-        }
-
-        .hero__title {
-            width: 400px;
-            margin-bottom: 42px;
-        }
-
-        .hero__title::before {
-            top: 208px;
-        }
-
-        .hero__descr {
-            margin-bottom: 72px;
-            font-size: 16px;
-        }
-
-        .hero__descr::after {
-            top: 306px;
-            right: 216px;
-        }
-
-        .hero__btn {
-            margin-left: 3px;
-        }
-
-        .situations {
-            background: url(/img/section2-bg-tablet.png) no-repeat 0 0;
-            background-size: cover;
-        }
-
-        .situations__container {
-            padding: 125px 290px 168px;
-        }
-
-        .situations__title {
-            width: 260px;
-            margin-bottom: 58px;
-        }
-
-        .situations__title::after {
-            content: url(/img/question-tablet.png);
-            top: 103px;
-            left: 481px;
-        }
-
-        .situations__item-1 {
-            margin-bottom: 64px;
-        }
-
-        .situations__item-1::before,
-        .situations__item-3::before,
-        .situations__item-3::after {
-            display: none;
-        }
-
-        .situations__item-2 {
-            margin-bottom: 123px;
-        }
-
-        .situations__descr {
-            letter-spacing: 0.9px;
-            line-height: 25px;
-        }
-
-        .situations__descr-1 {
-            padding-top: 93px;
-            margin-right: 81px;
-            width: 235px;
-        }
-
-        .situations__descr-2 {
-            width: 326px;
-        }
-
-        .situations__descr-3 {
-            width: 336px;
-        }
-
-        .situations__descr-1::before {
-            top: 46px;
-            right: -116px;
-        }
-
-        .situations__descr-1::after {
-            bottom: 62px;
-            right: -128px;
-        }
-
-        .situations__descr-4 {
-            padding-top: 80px;
-            width: 325px;
-        }
-
-        .situations__descr-4::before {
-            top: 30px;
-            left: -83px;
-            font-size: 50px;
-        }
-
-        .situations__img-1 {
-            width: 56%;
-        }
-
-        .situations__img-2,
-        .situations__img-4 {
-            width: 48%;
-        }
-
-        .about__title::after {
-            top: 95px;
-        }
-
-        .about__title {
-            margin-bottom: 94px;
-            width: 390px;
-        }
-
-        .about__list {
-            padding-left: 0;
-        }
-
-        .about__item {
-            width: 216px;
-            letter-spacing: 1px;
-        }
-
-        .about__item-title::before {
-            left: 0;
-        }
-
-        .about__item-descr {
-            line-height: 23px;
-        }
-
-        .teachers__container {
-            padding: 0 274px 0 290px;
-            margin-bottom: 0;
-        }
-
-        .teachers__title {
-            margin-bottom: 51px;
-        }
-
-        .teachers__title::after {
-            top: 583px;
-            right: -403px;
-        }
-
-        .teachers__list {
-            flex-wrap: wrap;
-        }
-
-        .teachers__list::after {
-            top: 736px;
-            right: -8px;
-        }
-
-        .teachers__img {
-            margin-bottom: 27px;
-            width: 96%;
-        }
-
-        .teachers__descr {
-            width: 350px;
-        }
-
-        .teachers__item-1,
-        .teachers__item-2 {
-            margin-right: 0;
-            margin-bottom: 40px;
-        }
-
-        .teachers__item-1::before,
-        .teachers__item-2::before {
-            top: 154px;
-        }
-
-        .teachers__item-2::before {
-            left: -30px;
-            width: 30px;
-        }
-
-        .teachers__item-1::after {
-            top: 144px;
-            left: -147px;
-        }
-
-        .teachers__item-2::after {
-            top: 154px;
-            right: -276px;
-            width: 292px;
-        }
-
-        .programm__container {
-            padding: 81px 186px 321px 517px;
-            background: url(/img/bigben.png) no-repeat -228px 51px;
-            background-size: 46%;
-        }
-
-        .programm__title {
-            margin-bottom: 51px;
-        }
-
-        .programm__title::before {
-            top: 58px;
-        }
-
-        .programm__title::after {
-            content: url(/img/question-tablet.png);
-            top: -51px;
-            right: 228px;
-        }
-
-        .programm__about-price {
-            margin-bottom: 29px;
-            font-size: 30px;
-        }
-
-        .programm__about-item {
-            width: 290px;
-            margin-bottom: 24px;
-        }
-
-        .programm__about-item:nth-child(odd) {
-            margin-right: 21px;
-        }
-
-        .programm__item-title {
-            margin-bottom: 12px;
-            font-size: 16px;
-        }
-
-        .programm__item-descr {
-            line-height: 25px;
-        }
-
-        .programm__bagel-blue {
-            top: 182px;
-            left: -119px;
-        }
-
-        .programm__bagel-grey {
-            top: 258px;
-            left: -136px;
-            width: 40%;
-        }
-
-        .programm__wave {
-            bottom: 290px;
-        }
-
-        .how {
-            background: url(/img/5section-bg.svg) no-repeat 15px 91px;
-            background-size: contain;
-        }
-
-        .how__container {
-            padding: 126px 288px 241px;
-        }
-
-        .how__title::before {
-            top: 90px;
-        }
-
-        .how__item {
-            letter-spacing: 1px;
-            line-height: 25px;
-        }
-
-        .how__item-1 {
-            padding-top: 50px;
-            margin-bottom: 79px;
-            background: url(/img/just.png) no-repeat 141px 65px;
-            background-size: 35%;
-        }
-
-        .how__item-1::after {
-            top: 1214px;
-            right: -199px;
-        }
-
-        .how__item-2 {
-            margin-bottom: 68px;
-            background: url(/img/communication.png) no-repeat 336px 11px;
-            background-size: 44%;
-        }
-
-        .how__item-2::before {
-            top: -323px;
-            left: 54px;
-        }
-
-        .how__item-3 {
-            margin-bottom: 54px;
-            background: url(/img/practice.png) no-repeat 5px 11px;
-            background-size: 48%;
-        }
-
-        .how__item-4 {
-            background: url(/img/repeat.png) no-repeat 368px 26px;
-            background-size: 35%;
-        }
-
-        .how__item-about-2 {
-            padding-top: 50px;
-        }
-
-        .how__item-about-3 {
-            padding-top: 34px;
-            margin-right: 13px;
-        }
-
-        .how__item-about-4 {
-            padding-top: 51px;
-        }
-
-        .how__item-about-4::before {
-            top: -37px;
-            left: -125px;
-        }
-
-        .how__item-img {
-            width: 48%;
-        }
-
-        .how__item-about-1 {
-            padding-top: 38px;
-            margin-right: 15px;
-        }
-
-        .how__item-descr {
-            width: 326px;
-        }
-
-        .reviews__container {
-            padding: 0 293px 180px;
-            margin-bottom: 0;
-        }
-
-        .reviews__title {
-            padding-top: 54px;
-        }
-
-        .reviews__title::before {
-            top: 112px;
-            left: 1px;
-        }
-
-        .reviews__slider-container {
-            padding-top: 84px;
-        }
-
-        .reviews__img {
-            margin-right: 29px;
-            height: 56%;
-        }
-
-        .reviews__name {
-            margin-bottom: 28px;
-            letter-spacing: -0.4px;
-        }
-
-        .reviews__descr {
-            width: 537px;
-            line-height: 24px;
-        }
-
-        .swiper-scrollbar {
-            bottom: -81px !important;
-        }
-
-        .reviews__slider-container::before {
-            top: -23px;
-            right: 119px;
-        }
-
-        .reviews__slider-container::after {
-            display: none;
-        }
-
-        .sign-up__container {
-            padding: 115px 392px 131px;
-        }
-
-        .sign-up__container::before {
-            top: 76px;
-            left: 511px;
-        }
-
-        .sign-up__info {
-            padding-top: 28px;
-            padding-left: 272px;
-        }
-
-        .sign-up__img {
-            top: 103px;
-            left: 62px;
-            width: 40%;
-        }
-
-        .sign-up__title {
-            margin-bottom: 45px;
-        }
-
-        .sign-up__title::after {
-            top: -140px;
-        }
-
-        .sign-up__title::before {
-            top: 92px;
-        }
-
-        .sign-up__img-title {
-            width: 310px;
-        }
-
-        .sign-up__descr {
-            margin-bottom: 34px;
-            width: 350px;
-            letter-spacing: 1px;
-            line-height: 24px;
-        }
-
-        .sign-up__descr::before {
-            bottom: -120px;
-            left: -62px;
-        }
-
-        .sign-up__descr::after {
-            top: -214px;
-            right: -169px;
-        }
-
-        .footer__container {
-            padding: 0 290px 43px;
-        }
-
-        .footer__socials-list {
-            padding-top: 51px;
-            margin-bottom: 13px;
-        }
-
-        .footer__img {
-            padding-top: 11px;
-            width: 26%;
-        }
-
-        .footer__logo-link {
-            padding-top: 49px;
-        }
-
-        .footer__descr {
-            margin-bottom: 8px;
-            letter-spacing: 1.2px;
-        }
-
-        .footer__tel {
-            margin-right: 0;
-            margin-bottom: 12px;
-            letter-spacing: 1.2px;
-        }
+@media (max-width: 1600px) {
+    .header__container {
+        padding: 27px 280px;
     }
+
+    .header__logo-img {
+        padding-top: 6px;
+    }
+
+    .header__contact {
+        font-size: 16px;
+    }
+
+    .address {
+        margin-right: 22px;
+    }
+
+    .tel {
+        margin-right: 21px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .btn-fill {
+        width: 294px;
+        height: 62px;
+        font-size: 14px;
+    }
+
+    .header__btn {
+        margin-right: 11px;
+    }
+
+    .hero {
+        background: url(/img/english_yes.png) no-repeat 16px 61px;
+        background-size: contain
+    }
+
+    .hero__container {
+        padding: 0 209px 0;
+        margin-bottom: 35px;
+    }
+
+    .hero__container::before {
+        top: 32px;
+        right: 386px;
+    }
+
+    .hero__container::after {
+        top: 185px;
+        left: 88px;
+    }
+
+    .hero__image {
+        margin-right: 0;
+        bottom: 22px;
+        left: -35px;
+        top: -22px;
+
+    }
+
+    .hero__info {
+        padding-top: 81px;
+        padding-right: 49px;
+    }
+
+    .hero__title-small {
+        padding-top: 0;
+        margin-bottom: 7px;
+        font-size: 24px;
+        letter-spacing: 1.2px;
+    }
+
+    .title {
+        font-size: 30px;
+        letter-spacing: 1.6px;
+    }
+
+    .hero__title {
+        width: 400px;
+        margin-bottom: 42px;
+    }
+
+    .hero__title::before {
+        top: 208px;
+    }
+
+    .hero__descr {
+        margin-bottom: 72px;
+        font-size: 16px;
+    }
+
+    .hero__descr::after {
+        top: 306px;
+        right: 216px;
+    }
+
+    .hero__btn {
+        margin-left: 3px;
+    }
+
+    .situations {
+        background: url(/img/section2-bg-tablet.png) no-repeat 0 0;
+        background-size: cover;
+    }
+
+    .situations__container {
+        padding: 125px 290px 168px;
+    }
+
+    .situations__title {
+        width: 260px;
+        margin-bottom: 58px;
+    }
+
+    .situations__title::after {
+        content: url(/img/question-tablet.png);
+        top: 103px;
+        left: 481px;
+    }
+
+    .situations__item-1 {
+        margin-bottom: 64px;
+    }
+
+    .situations__item-1::before,
+    .situations__item-3::before,
+    .situations__item-3::after {
+        display: none;
+    }
+
+    .situations__item-2 {
+        margin-bottom: 123px;
+    }
+
+    .situations__descr {
+        letter-spacing: 0.9px;
+        line-height: 25px;
+    }
+
+    .situations__descr-1 {
+        padding-top: 93px;
+        margin-right: 81px;
+        width: 235px;
+    }
+
+    .situations__descr-2 {
+        width: 326px;
+    }
+
+    .situations__descr-3 {
+        width: 336px;
+    }
+
+    .situations__descr-1::before {
+        top: 46px;
+        right: -116px;
+    }
+
+    .situations__descr-1::after {
+        bottom: 62px;
+        right: -128px;
+    }
+
+    .situations__descr-4 {
+        padding-top: 80px;
+        width: 325px;
+    }
+
+    .situations__descr-4::before {
+        top: 30px;
+        left: -83px;
+        font-size: 50px;
+    }
+
+    .situations__img-1 {
+        width: 56%;
+    }
+
+    .situations__img-2,
+    .situations__img-4 {
+        width: 48%;
+    }
+
+    .about__title::after {
+        top: 95px;
+    }
+
+    .about__title {
+        margin-bottom: 94px;
+        width: 390px;
+    }
+
+    .about__list {
+        padding-left: 0;
+    }
+
+    .about__item {
+        width: 216px;
+        letter-spacing: 1px;
+    }
+
+    .about__item-title::before {
+        left: 0;
+    }
+
+    .about__item-descr {
+        line-height: 23px;
+    }
+
+    .teachers__container {
+        padding: 0 274px 0 290px;
+        margin-bottom: 0;
+    }
+
+    .teachers__title {
+        margin-bottom: 51px;
+    }
+
+    .teachers__title::after {
+        top: 583px;
+        right: -403px;
+    }
+
+    .teachers__list {
+        flex-wrap: wrap;
+    }
+
+    .teachers__list::after {
+        top: 736px;
+        right: -8px;
+    }
+
+    .teachers__img {
+        margin-bottom: 27px;
+        width: 96%;
+    }
+
+    .teachers__descr {
+        width: 350px;
+    }
+
+    .teachers__item-1,
+    .teachers__item-2 {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .teachers__item-1::before,
+    .teachers__item-2::before {
+        top: 154px;
+    }
+
+    .teachers__item-2::before {
+        left: -30px;
+        width: 30px;
+    }
+
+    .teachers__item-1::after {
+        top: 144px;
+        left: -147px;
+    }
+
+    .teachers__item-2::after {
+        top: 154px;
+        right: -276px;
+        width: 292px;
+    }
+
+    .programm__container {
+        padding: 81px 186px 321px 517px;
+        background: url(/img/bigben.png) no-repeat -228px 51px;
+        background-size: 46%;
+    }
+
+    .programm__title {
+        margin-bottom: 51px;
+    }
+
+    .programm__title::before {
+        top: 58px;
+    }
+
+    .programm__title::after {
+        content: url(/img/question-tablet.png);
+        top: -51px;
+        right: 228px;
+    }
+
+    .programm__about-price {
+        margin-bottom: 29px;
+        font-size: 30px;
+    }
+
+    .programm__about-item {
+        width: 290px;
+        margin-bottom: 24px;
+    }
+
+    .programm__about-item:nth-child(odd) {
+        margin-right: 21px;
+    }
+
+    .programm__item-title {
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+
+    .programm__item-descr {
+        line-height: 25px;
+    }
+
+    .programm__bagel-blue {
+        top: 182px;
+        left: -119px;
+    }
+
+    .programm__bagel-grey {
+        top: 258px;
+        left: -136px;
+        width: 40%;
+    }
+
+    .programm__wave {
+        bottom: 290px;
+    }
+
+    .how {
+        background: url(/img/5section-bg.svg) no-repeat 15px 91px;
+        background-size: contain;
+    }
+
+    .how__container {
+        padding: 126px 288px 241px;
+    }
+
+    .how__title::before {
+        top: 90px;
+    }
+
+    .how__item {
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+
+    .how__item-1 {
+        padding-top: 50px;
+        margin-bottom: 79px;
+        background: url(/img/just.png) no-repeat 141px 65px;
+        background-size: 35%;
+    }
+
+    .how__item-1::after {
+        top: 1214px;
+        right: -199px;
+    }
+
+    .how__item-2 {
+        margin-bottom: 68px;
+        background: url(/img/communication.png) no-repeat 336px 11px;
+        background-size: 44%;
+    }
+
+    .how__item-2::before {
+        top: -323px;
+        left: 54px;
+    }
+
+    .how__item-3 {
+        margin-bottom: 54px;
+        background: url(/img/practice.png) no-repeat 5px 11px;
+        background-size: 48%;
+    }
+
+    .how__item-4 {
+        background: url(/img/repeat.png) no-repeat 368px 26px;
+        background-size: 35%;
+    }
+
+    .how__item-about-2 {
+        padding-top: 50px;
+    }
+
+    .how__item-about-3 {
+        padding-top: 34px;
+        margin-right: 13px;
+    }
+
+    .how__item-about-4 {
+        padding-top: 51px;
+    }
+
+    .how__item-about-4::before {
+        top: -37px;
+        left: -125px;
+    }
+
+    .how__item-img {
+        width: 48%;
+    }
+
+    .how__item-about-1 {
+        padding-top: 38px;
+        margin-right: 15px;
+    }
+
+    .how__item-descr {
+        width: 326px;
+    }
+
+    .reviews__container {
+        padding: 0 293px 180px;
+        margin-bottom: 0;
+    }
+
+    .reviews__title {
+        padding-top: 54px;
+    }
+
+    .reviews__title::before {
+        top: 112px;
+        left: 1px;
+    }
+
+    .reviews__slider-container {
+        padding-top: 84px;
+    }
+
+    .reviews__img {
+        margin-right: 29px;
+        height: 56%;
+    }
+
+    .reviews__name {
+        margin-bottom: 28px;
+        letter-spacing: -0.4px;
+    }
+
+    .reviews__descr {
+        width: 537px;
+        line-height: 24px;
+    }
+
+    .swiper-scrollbar {
+        bottom: -81px !important;
+    }
+
+    .reviews__slider-container::before {
+        top: -23px;
+        right: 119px;
+    }
+
+    .reviews__slider-container::after {
+        display: none;
+    }
+
+    .sign-up__container {
+        padding: 115px 392px 131px;
+    }
+
+    .sign-up__container::before {
+        top: 76px;
+        left: 511px;
+    }
+
+    .sign-up__info {
+        padding-top: 28px;
+        padding-left: 272px;
+    }
+
+    .sign-up__img {
+        top: 103px;
+        left: 62px;
+        width: 40%;
+    }
+
+    .sign-up__title {
+        margin-bottom: 45px;
+    }
+
+    .sign-up__title::after {
+        top: -140px;
+    }
+
+    .sign-up__title::before {
+        top: 92px;
+    }
+
+    .sign-up__img-title {
+        width: 310px;
+    }
+
+    .sign-up__descr {
+        margin-bottom: 34px;
+        width: 350px;
+        letter-spacing: 1px;
+        line-height: 24px;
+    }
+
+    .sign-up__descr::before {
+        bottom: -120px;
+        left: -62px;
+    }
+
+    .sign-up__descr::after {
+        top: -214px;
+        right: -169px;
+    }
+
+    .footer__container {
+        padding: 0 290px 43px;
+    }
+
+    .footer__socials-list {
+        padding-top: 51px;
+        margin-bottom: 13px;
+    }
+
+    .footer__img {
+        padding-top: 11px;
+        width: 26%;
+    }
+
+    .footer__logo-link {
+        padding-top: 49px;
+    }
+
+    .footer__descr {
+        margin-bottom: 8px;
+        letter-spacing: 1.2px;
+    }
+
+    .footer__tel {
+        margin-right: 0;
+        margin-bottom: 12px;
+        letter-spacing: 1.2px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .btn,
+    .hero__descr {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .hero__title-small {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .header__container {
+        padding: 20px 15px;
+        align-items: unset;
+    }
+
+    .header__contact {
+        font-size: 14px;
+        width: 129px;
+    }
+
+    .header__contact .address {
+        display: none;
+    }
+
+    .header__logo-img {
+        width: 62%;
+    }
+
+    .tel,
+    .header__btn {
+        margin-right: 0;
+    }
+
+    .tel {
+        margin-left: 4px;
+    }
+
+    .header__btn {
+        margin-top: 4px;
+        padding-left: 8px;
+    }
+
+    .hero {
+        background: none;
+    }
+
+    .hero__container {
+        padding: 0 15px 0;
+        flex-direction: column;
+    }
+
+    .hero__container::after {
+        content: url(/img/bagel-phone.svg);
+        top: 208px;
+        left: 29px;
+    }
+
+    .hero__image {
+        left: 19px;
+        top: -6px;
+        width: 84%;
+    }
+
+    .hero__info {
+        padding: 0;
+    }
+
+    .hero__title-small {
+        margin-bottom: 0;
+    }
+
+    .hero__title {
+        margin-bottom: 32px;
+        font-size: 23px;
+        width: 285px;
+    }
+
+    .hero__title::before {
+        top: 392px;
+        left: 129px;
+    }
+
+    .hero__descr {
+        margin-bottom: 15px;
+        text-align: center;
+        line-height: 18px;
+    }
+
+    .hero__btn {
+        margin-right: 0;
+        width: 286px;
+    }
+
+    .hero__descr::after {
+        content: none;
+    }
+
+    .situations {
+        background: url(/img/section2-bg-phone.png) no-repeat 0 -167px;
+    }
+
+    .situations__container {
+        padding: 132px 15px 100px;
+    }
+
+    .situations__title {
+        padding-left: 47px;
+        margin-bottom: 15px;
+        width: 244px;
+    }
+
+    .situations__title::after {
+        top: 110px;
+        left: 206px;
+    }
+
+    .situations__item {
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .situations__descr {
+        margin-bottom: 26px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    .situations__descr-1 {
+        margin-right: 0;
+        padding-top: 90px;
+    }
+
+    .situations__descr-1::before {
+        right: 85px;
+    }
+
+    .situations__descr-1::after {
+        content: none;
+    }
+
+    .situations__descr-2 {
+        padding-top: 52px;
+        order: -1;
+        width: 288px;
+    }
+
+    .situations__descr-2::before {
+        top: 9px;
+        left: 110px;
+    }
+
+    .situations__descr-3 {
+        order: -1;
+        padding-top: 52px;
+        width: 291px;
+    }
+
+    .situations__descr-3::before {
+        top: 10px;
+        right: 110px;
+    }
+
+    .situations__descr-4 {
+        order: -1;
+        padding-top: 65px;
+        width: 230px;
+    }
+
+    .situations__descr-4::before {
+        top: 33px;
+        left: -1px;
+        font-size: 49px;
+        letter-spacing: 2px;
+    }
+
+    .situations__img {
+        width: 100%;
+    }
+
+    .situations__img-2,
+    .situations__descr-3,
+    .situations__img-4 {
+        margin-right: 0;
+    }
+
+    .situations__img-3 {
+        position: unset;
+    }
+
+    .about__container {
+        padding: 24px 15px 20px;
+        margin-bottom: 0;
+    }
+
+    .about__title {
+        margin-bottom: 70px;
+        width: 284px;
+    }
+
+    .about__title::after {
+        top: 69px;
+        left: 112px;
+    }
+
+    .about__list {
+        flex-wrap: wrap;
+        padding: 0 49px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .about__list::after {
+        content: none;
+    }
+
+    .about__item-descr {
+        line-height: 19px;
+    }
+
+    .about__item {
+        margin-bottom: 49px;
+    }
+
+    .about__item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .about__item-title {
+        margin-bottom: 16px;
+    }
+
+    .about__item-title::before {
+        left: 71px;
+    }
+
+    .about__img {
+        display: none;
+    }
+
+    .teachers__container {
+        padding: 0 15px;
+    }
+
+    .teachers__title {
+        margin-bottom: 28px;
+        font-size: 30px;
+    }
+
+    .teachers__list {
+        font-size: 14px;
+    }
+
+    .teachers__list::after,
+    .teachers__item-2::after,
+    .teachers__title::after {
+        content: none;
+    }
+
+    .teachers__img {
+        margin-bottom: 18px;
+        width: 98%;
+    }
+
+    .teachers__descr {
+        width: 289px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .teachers__item-1 {
+        margin-bottom: 37px;
+    }
+
+    .teachers__item-2 {
+        margin-bottom: 18px;
+    }
+
+    .programm__container {
+        padding: 0 15px;
+        padding-top: 411px;
+        background: url(/img/bigben.png) no-repeat 5px 0;
+        background-size: 82%;
+    }
+
+    .programm__about {
+        text-align: center;
+    }
+
+    .programm__about-price {
+        margin-bottom: 13px;
+        font-size: 22px;
+    }
+
+    .programm__title {
+        margin-bottom: 32px;
+    }
+
+    .programm__title::before {
+        top: 67px;
+        left: 110px;
+    }
+
+    .programm__title::after {
+        content: none;
+    }
+
+    .programm__about-descr {
+        margin-bottom: 30px;
+        width: 294px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .programm__item-descr,
+    .programm__item-title {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .programm__about-item:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .programm__wave {
+        top: 217px;
+        left: 195px;
+        width: 29%;
+    }
+
+    .programm__bagel-blue {
+        top: 54px;
+        left: 64px;
+        width: 19%;
+    }
+
+    .programm__bagel-grey {
+        top: 80px;
+        left: 44px;
+        width: 71%;
+    }
+
+    .how {
+        background: url(/img/5section-bg-phone.png) no-repeat 0 15px;
+        background-size: unset;
+    }
+
+    .how__container {
+        padding: 93px 15px 112px;
+    }
+
+    .how__title {
+        margin-bottom: 0;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .how__title::before {
+        left: 113px;
+    }
+
+    .how__list {
+        display: flex;
+    }
+
+    .how__item {
+        flex-wrap: wrap;
+        text-align: center;
+        line-height: 18px;
+    }
+
+    .how__item-title {
+        font-size: 14px;
+    }
+
+    .how__item-title-1::before {
+        left: 13px;
+        top: 2px;
+    }
+
+    .how__item-title-2::before {
+        content: url(/img/arrow.png);
+        position: absolute;
+        left: 32px;
+        top: 0;
+    }
+
+    .how__item-title-2 {
+        padding-left: 36px;
+    }
+
+    .how__item-title .how__item-title-2 {
+        left: 0;
+    }
+
+    .how__item-title-3 {
+        padding-left: 23px;
+    }
+
+    .how__item-title-3::before {
+        content: url(/img/arrow.png);
+        position: absolute;
+        left: 42px;
+        top: 2px;
+    }
+
+    .how__item-title-4 {
+        padding-left: 14px;
+        margin-bottom: 8px;
+    }
+
+    .how__item-title-4::before {
+        content: url(/img/arrow.png);
+        position: absolute;
+        left: 59px;
+        top: 0px;
+    }
+
+    .how__item-1 {
+        padding-top: 16px;
+        margin-bottom: 0;
+    }
+
+    .how__item-2 {
+        margin-bottom: 0;
+        width: 300px;
+    }
+
+    .how__item-3 {
+        margin-bottom: 0;
+    }
+
+    .how__item-img {
+        width: 100%;
+    }
+
+    .how__item-img-2,
+    .how__item-img-4 {
+        margin-right: 0;
+    }
+
+    .how__item-img-2 {
+        width: 96%;
+    }
+
+    .how__item-about-1 {
+        margin-right: 0;
+        margin-bottom: 23px;
+        padding-top: 42px;
+    }
+
+    .how__item-about-2 {
+        order: -1;
+        padding-top: 38px;
+    }
+
+    .how__item-about-3 {
+        padding-top: 41px;
+    }
+
+    .how__item-about-4 {
+        order: -1;
+        padding-top: 38px;
+    }
+
+    .how__item-descr {
+        width: 279px;
+        font-size: 14px;
+    }
+
+    .how__item-descr-2 {
+        margin-bottom: 22px;
+        width: 299px;
+    }
+
+    .how__item-descr-3 {
+        margin-bottom: 24px;
+    }
+
+    .how__item-descr-4 {
+        margin-bottom: 21px;
+        width: 296px;
+    }
+
+    .how__item-2::before,
+    .how__item-title {
+        content: unset;
+    }
+
+    .reviews__container {
+        padding: 0 15px;
+        padding-bottom: 80px;
+    }
+
+    .reviews__title::before {
+        top: 95px;
+        left: 112px;
+    }
+
+    .reviews__slider-container::before {
+        content: none;
+    }
+
+    .reviews__slider-container {
+        padding-top: 65px;
+    }
+
+    .reviews__swiper-slide {
+        display: block;
+        text-align: center;
+    }
+
+    .reviews__img {
+        margin-right: 0;
+        width: 54%;
+        height: auto;
+    }
+
+    .reviews__name {
+        padding-top: 19px;
+        margin-bottom: 11px;
+        font-size: 16px;
+    }
+
+    .reviews__descr {
+        width: 293px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev,
+    .swiper-scrollbar {
+        display: none;
+    }
+
+    .swiper-pagination {
+        display: block;
+    }
+
+    .sign-up__container {
+        padding: 0 15px 65px;
+        margin-bottom: 62px;
+    }
+
+    .sign-up__container::before {
+        content: url(/img/wave-phone.png);
+        top: 88px;
+        left: 226px;
+
+    }
+
+    .sign-up__title::after {
+        content: url(/img/wave-phone.png);
+        top: 223px;
+        right: 216px;
+    }
+
+    .sign-up__info {
+        padding: 0;
+        text-align: center;
+    }
+
+    .sign-up__img {
+        top: 77px;
+        left: 21px;
+        width: 82%;
+    }
+
+    .sign-up__descr {
+        margin-bottom: 20px;
+        width: 293px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .sign-up__descr::before {
+        bottom: -142px;
+        left: 26px;
+    }
+
+    .sign-up__descr::after {
+        content: "";
+        position: absolute;
+        top: -239px;
+        right: 8px;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: var(--blue-color);
+    }
+
+    .sign-up__title {
+        padding-top: 281px;
+        margin-bottom: 37px;
+        font-size: 24px;
+    }
+
+    .sign-up__title::before {
+        top: 353px;
+        left: 112px;
+    }
+
+    .footer__container {
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .footer__img {
+        padding-left: 62px;
+        padding-top: 8px;
+        width: 65%;
+    }
+
+    .footer__socials-list {
+        padding-top: 149px;
+        margin-bottom: 24px;
+    }
+
+    .footer__socials-link:not(:last-child) {
+        margin-right: 26px;
+    }
+
+    .footer__descr {
+        margin-bottom: 5px;
+        letter-spacing: 0.8px;
+    }
+
+    .footer__address--tablet {
+        letter-spacing: 0.6px;
+    }
+
+    .footer__tel {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .footer__info {
+        align-items: center;
+    }
+
+}

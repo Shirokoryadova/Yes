@@ -176,8 +176,6 @@ input[type='search']::-webkit-search-results-decoration {
     position: absolute;
     left: 284px;
     top: 257px;
-    width: 85px;
-    height: 85px;
 }
 
 .hero__image {
@@ -886,6 +884,23 @@ input[type='search']::-webkit-search-results-decoration {
     right: -135px !important;
 }
 
+.swiper-pagination {
+    display: none;
+    top: 578px !important;
+}
+
+.swiper-pagination-bullet {
+    margin: 0 10px !important;
+    
+    width: 16px !important;
+    height: 16px !important;
+    background-color: var(--red-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
 /*Sign-up*/
 .sign-up__container {
     position: relative;
@@ -927,7 +942,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .sign-up__title::after {
-    content: url(/img/wave.svg);
+    content: url(/img/wave-phone.svg);
     position: absolute;
     top: -279px;
     right: 6px;
@@ -962,6 +977,7 @@ input[type='search']::-webkit-search-results-decoration {
 /*Footer*/
 .footer__container {
     padding: 0 392px 86px;
+    background-color: #f8f8f8;
 }
 
 .footer__socials-list {
