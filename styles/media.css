@@ -23,9 +23,8 @@
     }
 
     .programm__container {
-        padding: 81px 145px 229px 669px;
+        padding: 27px 30px 0 0;
         margin-bottom: 0;
-        background: url(/img/bigben.png) no-repeat -228px 51px;
     }
 
     .programm__about-list {
@@ -147,7 +146,7 @@
     }
 
     .hero__title::before {
-        top: 208px;
+        top: 90px;
     }
 
     .hero__descr {
@@ -170,12 +169,12 @@
     }
 
     .situations__container {
-        padding: 125px 290px 168px;
+        padding: 121px 290px 188px;
     }
 
     .situations__title {
-        width: 260px;
         margin-bottom: 58px;
+        width: 260px;
     }
 
     .situations__title::after {
@@ -218,7 +217,7 @@
     }
 
     .situations__descr-1::before {
-        top: 46px;
+        top: 48px;
         right: -116px;
     }
 
@@ -247,6 +246,10 @@
         width: 48%;
     }
 
+    .about__container {
+        padding: 123px 290px 134px;
+    }
+
     .about__title::after {
         top: 95px;
     }
@@ -271,6 +274,10 @@
 
     .about__item-descr {
         line-height: 23px;
+    }
+
+    .teachers::before {
+        top: 242px;
     }
 
     .teachers__container {
@@ -311,31 +318,17 @@
         margin-bottom: 40px;
     }
 
-    .teachers__item-1::before,
-    .teachers__item-2::before {
-        top: 154px;
-    }
-
-    .teachers__item-2::before {
-        left: -30px;
-        width: 30px;
-    }
-
     .teachers__item-1::after {
         top: 144px;
         left: -147px;
     }
 
-    .teachers__item-2::after {
-        top: 154px;
-        right: -276px;
-        width: 292px;
+    .programm__container {
+        padding: 54px 330px 0 0;
     }
 
-    .programm__container {
-        padding: 81px 186px 321px 517px;
-        background: url(/img/bigben.png) no-repeat -228px 51px;
-        background-size: 46%;
+    .programm__img {
+        margin-right: 373px;
     }
 
     .programm__title {
@@ -349,7 +342,11 @@
     .programm__title::after {
         content: url(/img/question-tablet.png);
         top: -51px;
-        right: 228px;
+        right: 157px;
+    }
+
+    .programm__about {
+        padding-top: 27px;
     }
 
     .programm__about-price {
@@ -387,16 +384,17 @@
     }
 
     .programm__wave {
-        bottom: 290px;
+        bottom: 250px;
     }
 
     .how {
-        background: url(/img/5section-bg.svg) no-repeat 15px 91px;
+        background: url(/img/5section-bg.svg) no-repeat 15px 40px;
         background-size: contain;
+        background-position: center;
     }
 
     .how__container {
-        padding: 126px 288px 241px;
+        padding: 169px 288px 241px;
     }
 
     .how__title::before {
@@ -474,7 +472,7 @@
     }
 
     .reviews__container {
-        padding: 0 293px 180px;
+        padding: 0 295px 137px;
         margin-bottom: 0;
     }
 
@@ -492,7 +490,7 @@
     }
 
     .reviews__img {
-        margin-right: 29px;
+        margin-right: 38px;
         height: 56%;
     }
 
@@ -520,17 +518,17 @@
     }
 
     .sign-up__container {
-        padding: 115px 392px 131px;
+        padding: 221px 71px 131px;
     }
 
     .sign-up__container::before {
-        top: 76px;
+        top: 169px;
         left: 511px;
     }
 
     .sign-up__info {
-        padding-top: 28px;
-        padding-left: 272px;
+        padding-top: 16px;
+        padding-left: 129px;
     }
 
     .sign-up__img {
@@ -541,10 +539,12 @@
 
     .sign-up__title {
         margin-bottom: 45px;
+        width: 300px;
     }
 
     .sign-up__title::after {
-        top: -140px;
+        top: -177px;
+        right: -43px;
     }
 
     .sign-up__title::before {
@@ -577,7 +577,7 @@
     }
 
     .footer__socials-list {
-        padding-top: 51px;
+        padding-top: 42px;
         margin-bottom: 13px;
     }
 
@@ -587,7 +587,7 @@
     }
 
     .footer__logo-link {
-        padding-top: 49px;
+        padding-top: 41px;
     }
 
     .footer__descr {
@@ -602,8 +602,134 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1299px) {
+    .header__container {
+        padding: 0 65px;
+    }
 
+    .hero__container {
+        padding: 0 15px;
+    }
+
+    .situations__container {
+        padding: 132px 100px 100px;
+    }
+
+    .about__container {
+        padding: 137px 140px;
+    }
+
+    .teachers__container {
+        padding: 0 140px;
+    }
+
+    .situations__title::after {
+        left: 300px;
+    }
+
+    .teachers__descr {
+        line-height: 18px;
+    }
+
+    .teachers__item {
+        margin: 0 auto;
+    }
+
+    .teachers__item-1 {
+        margin-bottom: 61px;
+    }
+
+    .teachers__item-2 {
+        margin-bottom: 41px;
+    }
+
+    .programm__about {
+        display: block;
+    }
+
+    .programm__title::after {
+        right: 157px;
+    }
+
+    .how {
+        background-size: cover;
+    }
+
+    .how__container {
+        padding: 126px 30px 100px;
+    }
+
+    .reviews__container {
+        padding: 0 30px 100px;
+    }
+
+    .reviews__swiper-slide {
+        display: block;
+        padding-bottom: 94px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .reviews__img {
+        margin-right: 0;
+    }
+
+    .reviews__descr {
+        width: 100%;
+    }
+
+    .reviews__info {
+        padding: 0 50px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev,
+    .swiper-scrollbar {
+        display: none !important;
+    }
+
+    .swiper-pagination {
+        display: block;
+        bottom: 0 !important;
+        top: unset !important;
+    }
+
+    .sign-up__container {
+        flex-direction: column;
+        align-items: center;
+        padding: 74px 30px 131px;
+    }
+
+    .sign-up__info {
+        padding: 0;
+    }
+
+    .sign-up__title {
+        padding-top: 100px;
+    }
+
+    .sign-up__title::before {
+        top: 190px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .programm__container {
+        padding: 54px 150px 0 150px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .programm__img {
+        margin-right: 0;
+    }
+
+    .header__btn:hover {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 850px) {
     .btn,
     .hero__descr {
         font-size: 14px;
@@ -648,7 +774,7 @@
 
     .header__btn {
         margin-top: 4px;
-        padding-left: 8px;
+        margin-left: 8px;
     }
 
     .hero {
@@ -656,8 +782,12 @@
     }
 
     .hero__container {
-        padding: 0 15px 0;
         flex-direction: column;
+    }
+
+    .hero__container::before {
+        top: 31px;
+        right: 33px;
     }
 
     .hero__container::after {
@@ -674,6 +804,7 @@
 
     .hero__info {
         padding: 0;
+        margin: 0 auto;
     }
 
     .hero__title-small {
@@ -681,24 +812,27 @@
     }
 
     .hero__title {
+        margin: 0 auto;
         margin-bottom: 32px;
         font-size: 23px;
-        width: 285px;
+        width: 290px;
     }
 
     .hero__title::before {
-        top: 392px;
-        left: 129px;
+        top: 71px;
+        left: 114px;
     }
 
     .hero__descr {
         margin-bottom: 15px;
         text-align: center;
         line-height: 18px;
+        max-width: 100%;
     }
 
     .hero__btn {
-        margin-right: 0;
+        margin: 0 auto;
+        display: block;
         width: 286px;
     }
 
@@ -707,22 +841,25 @@
     }
 
     .situations {
-        background: url(/img/section2-bg-phone.png) no-repeat 0 -167px;
+        background: url(/img/section2-bg-phone.png) no-repeat 0 -147px;
+        background-size: 100% 104%;
     }
 
     .situations__container {
-        padding: 132px 15px 100px;
+        padding: 132px 15px 88px;
     }
 
     .situations__title {
-        padding-left: 47px;
+        padding-left: 0;
         margin-bottom: 15px;
+        margin: 0 auto;
         width: 244px;
     }
 
     .situations__title::after {
         top: 110px;
-        left: 206px;
+        left: 0;
+        right: -189px;
     }
 
     .situations__item {
@@ -741,11 +878,12 @@
 
     .situations__descr-1 {
         margin-right: 0;
-        padding-top: 90px;
+        padding-top: 103px;
     }
 
     .situations__descr-1::before {
         right: 85px;
+        top: 61px;
     }
 
     .situations__descr-1::after {
@@ -802,12 +940,13 @@
     }
 
     .about__container {
-        padding: 24px 15px 20px;
+        padding: 38px 15px 0;
         margin-bottom: 0;
     }
 
     .about__title {
-        margin-bottom: 70px;
+        padding-bottom: 70px;
+        margin: 0 auto;
         width: 284px;
     }
 
@@ -818,6 +957,7 @@
 
     .about__list {
         flex-wrap: wrap;
+        justify-content: center;
         padding: 0 49px;
         font-size: 14px;
         text-align: center;
@@ -840,6 +980,7 @@
     }
 
     .about__item-title {
+        margin: 0 auto;
         margin-bottom: 16px;
     }
 
@@ -852,7 +993,7 @@
     }
 
     .teachers__container {
-        padding: 0 15px;
+        padding: 19px 15px 0;
     }
 
     .teachers__title {
@@ -861,11 +1002,11 @@
     }
 
     .teachers__list {
+        justify-content: center;
         font-size: 14px;
     }
 
     .teachers__list::after,
-    .teachers__item-2::after,
     .teachers__title::after {
         content: none;
     }
@@ -878,26 +1019,23 @@
     .teachers__descr {
         width: 289px;
         font-size: 14px;
-        line-height: 21px;
-    }
-
-    .teachers__item-1 {
-        margin-bottom: 37px;
-    }
-
-    .teachers__item-2 {
-        margin-bottom: 18px;
     }
 
     .programm__container {
-        padding: 0 15px;
-        padding-top: 411px;
-        background: url(/img/bigben.png) no-repeat 5px 0;
-        background-size: 82%;
+        padding: 18px 0;
+    }
+
+    .programm__img {
+        margin-right: 320px;
     }
 
     .programm__about {
+        padding: 29px 15px 0;
         text-align: center;
+    }
+
+    .programm__about-list {
+        justify-content: center;
     }
 
     .programm__about-price {
@@ -906,21 +1044,19 @@
     }
 
     .programm__title {
+        margin: 0 auto;
         margin-bottom: 32px;
+        width: 280px;
     }
 
     .programm__title::before {
         top: 67px;
-        left: 110px;
-    }
-
-    .programm__title::after {
-        content: none;
+        left: 104px;
     }
 
     .programm__about-descr {
         margin-bottom: 30px;
-        width: 294px;
+        width: 100%;
         font-size: 14px;
         line-height: 18px;
     }
@@ -936,15 +1072,16 @@
     }
 
     .programm__wave {
-        top: 217px;
+        top: 244px;
         left: 195px;
         width: 29%;
     }
 
     .programm__bagel-blue {
-        top: 54px;
-        left: 64px;
+        top: 82px;
+        left: 65px;
         width: 19%;
+        z-index: -1;
     }
 
     .programm__bagel-grey {
@@ -954,22 +1091,23 @@
     }
 
     .how {
-        background: url(/img/5section-bg-phone.png) no-repeat 0 15px;
-        background-size: unset;
+        background: url(/img/5section-bg-phone.png) no-repeat;
+        background-size: 100% 100%;
     }
 
     .how__container {
-        padding: 93px 15px 112px;
+        padding: 76px 15px 99px;
     }
 
     .how__title {
-        margin-bottom: 0;
+        margin: 0 auto;
         font-size: 30px;
-        width: 100%;
+        width: 280px;
     }
 
     .how__title::before {
-        left: 113px;
+        left: 108px;
+        top: 88px;
     }
 
     .how__list {
@@ -1032,15 +1170,21 @@
     .how__item-1 {
         padding-top: 16px;
         margin-bottom: 0;
+        background: none;
     }
 
     .how__item-2 {
         margin-bottom: 0;
-        width: 300px;
+        background: none;
     }
 
     .how__item-3 {
         margin-bottom: 0;
+        background: none;
+    }
+
+    .how__item-4 {
+        background: none;
     }
 
     .how__item-img {
@@ -1053,7 +1197,7 @@
     }
 
     .how__item-img-2 {
-        width: 96%;
+        width: 100%;
     }
 
     .how__item-about-1 {
@@ -1105,9 +1249,15 @@
         padding-bottom: 80px;
     }
 
+    .reviews__title {
+        margin: 0 auto;
+        padding-top: 63px;
+        width: 280px;
+    }
+
     .reviews__title::before {
-        top: 95px;
-        left: 112px;
+        top: 106px;
+        left: 107px;
     }
 
     .reviews__slider-container::before {
@@ -1118,66 +1268,74 @@
         padding-top: 65px;
     }
 
-    .reviews__swiper-slide {
-        display: block;
-        text-align: center;
-    }
-
     .reviews__img {
-        margin-right: 0;
         width: 54%;
         height: auto;
     }
 
+    .reviews__info {
+        padding: 0;
+    }
+
     .reviews__name {
-        padding-top: 19px;
+        padding-top: 25px;
         margin-bottom: 11px;
         font-size: 16px;
     }
 
     .reviews__descr {
-        width: 293px;
+        width: 100%;
         font-size: 14px;
         line-height: 17px;
     }
 
-    .swiper-button-next,
-    .swiper-button-prev,
-    .swiper-scrollbar {
-        display: none;
-    }
-
-    .swiper-pagination {
-        display: block;
+    .reviews__swiper-slide {
+        padding-bottom: 74px;
     }
 
     .sign-up__container {
-        padding: 0 15px 65px;
+        padding: 19px 15px 65px;
         margin-bottom: 62px;
     }
 
     .sign-up__container::before {
         content: url(/img/wave-phone.png);
-        top: 88px;
+        top: 34px;
         left: 226px;
+    }
 
+    .sign-up__title {
+        padding-top: 32px;
+        margin-bottom: 37px;
+        width: 280px;
+        font-size: 24px;
+    }
+
+    .sign-up__title::before {
+        top: 103px;
+        left: 112px;
     }
 
     .sign-up__title::after {
         content: url(/img/wave-phone.png);
-        top: 223px;
-        right: 216px;
+        top: -24px;
+        right: 202px;
+    }
+
+    .programm__title::after {
+        content: none;
     }
 
     .sign-up__info {
         padding: 0;
+        margin: 0 auto;
         text-align: center;
     }
 
     .sign-up__img {
-        top: 77px;
+        top: 14px;
         left: 21px;
-        width: 82%;
+        width: 90%;
     }
 
     .sign-up__descr {
@@ -1203,19 +1361,8 @@
         background-color: var(--blue-color);
     }
 
-    .sign-up__title {
-        padding-top: 281px;
-        margin-bottom: 37px;
-        font-size: 24px;
-    }
-
-    .sign-up__title::before {
-        top: 353px;
-        left: 112px;
-    }
-
     .footer__container {
-        padding: 0 15px;
+        padding: 0 15px 67px;
         display: flex;
         justify-content: center;
         font-size: 14px;
@@ -1234,6 +1381,10 @@
 
     .footer__socials-link:not(:last-child) {
         margin-right: 26px;
+    }
+
+    .footer__logo-link {
+        padding-top: 49px;
     }
 
     .footer__descr {
