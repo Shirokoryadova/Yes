@@ -995,21 +995,20 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .footer__socials--vk:hover {
-    width: 43px;
-    height: 25px;
-},
-.footer__socials--inst:hover {
-    width: 33px;
-    height: 33px;
-},
-.footer__socials--yt:hover,
-.footer__socials--ok:hover {
-
+    width: 45px;
 }
 
-.footer__socials--yt:hover,
-.footer__socials--ok:hover {
+.footer__socials--inst:hover {
+    width: 33px;
+}
 
+.footer__socials--yt:hover {
+    width: 35px;
+    height: 33px;
+}
+
+.footer__socials--ok:hover {
+    width: 26px;
 }
 
 .footer__socials--vk {
