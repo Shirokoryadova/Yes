@@ -733,7 +733,7 @@
 
     .form__container {
         padding: 30px 15px;
-        width: 467px;
+        width: 340px;
         height: 561px;
     }
 
@@ -1446,6 +1446,7 @@
 
     .form__container {
         width: 290px;
+        height: 520px;
     }
 
     .form__input input {

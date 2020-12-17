@@ -1113,7 +1113,6 @@ input[type='search']::-webkit-search-results-decoration {
     width: 460px;
     height: 685px;
 	background-color: #fff;
-	border: 2px solid  var(--blue-color);
 }
 
 .form__title {
