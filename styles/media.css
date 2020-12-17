@@ -711,6 +711,22 @@
     .sign-up__title::before {
         top: 190px;
     }
+
+    .form__container {
+        padding: 30px 15px;
+        width: 467px;
+        height: 561px;
+    }
+
+    .form__title {
+        margin-bottom: 30px;
+        font-size: 19px;
+    }
+
+    .form__input span {
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width: 1050px) {
@@ -1403,6 +1419,26 @@
 
     .footer__info {
         align-items: center;
+    }
+
+    .form__container {
+        width: 290px;
+    }
+
+    .form__input input {
+        width: 240px;
+    }
+
+    .form__btn {
+        margin-left: 0;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .alert {
+        font-size: 20px;
+        width: 300px;
+        height: 216px;
     }
 
 }

@@ -23,7 +23,7 @@
             <div class="contact header__contact">
                 <span class="address">г. Москва ул. Северная, 35</span>
                 <a href="tel:+794546-54-67" class="tel">+7 (945) 46-54-67</a>
-                <button class="header__btn btn">Заказать звонок</button>
+                <button class="header__btn btn btn-form" data-path="form">Заказать звонок</button>
             </div>
         </div>
     </header>
@@ -41,7 +41,7 @@
                     <p class="hero__descr">Освойте английский для путешествий и&nbsp;научитесь объясняться в любой
                         ситуации
                     </p>
-                    <button class="hero__btn btn-fill btn">Записаться на пробное занятие</button>
+                    <button class="hero__btn btn-fill btn btn-form" data-path="form">Записаться на пробное занятие</button>
                 </div>
             </div>
         </section>
@@ -301,7 +301,7 @@
                     <h2 class="title sign-up__title">Бесплатное пробное занятие</h2>
                     <p class="sign-up__descr">Приходите на бесплатное первое занятие по теме “аэропорт” и ощутите пользу
                         сразу!</p>
-                    <button class="btn btn-fill sign-up__btn">Записаться на пробное занятие</button>
+                    <button class="btn btn-fill sign-up__btn btn-form" data-path="form">Записаться на пробное занятие</button>
                 </div>
             </div>
         </section>
@@ -335,13 +335,42 @@
                 <div class="footer__info">
                     <span class="footer__address">г. Москва ул. Северная, 35</span>
                     <a href="tel:+794546-54-67" class="tel footer__tel">+7 (945) 46-54-67</a>
-                    <button class="footer__btn btn">Заказать звонок</button>
+                    <button class="footer__btn btn btn-form" data-path="form">Заказать звонок</button>
                 </div>
             </div>
         </div>
     </footer>
+    <div class="form">
+        <div class="form__overlay">
+            <div class="container form__container" data-target="form">
+                <form id="form">
+                    <h2 class="form__title">Ваши контакты для связи</h2>
+                    <label class="form__input">
+                        <span>Имя</span>
+                        <input type="text" name="Имя">
+                    </label>
+                    <label class="form__input">
+                        <span>Почта</span>
+                        <input type="email" name="Почта">
+                    </label>
+                    <label class="form__input">
+                        <span>Телефон</span>
+                        <input type="tel" name="Телефон" placeholder="+7 (___) ___-____">
+                    </label>
+                    <button type="submit" class="btn form__btn btn-fill btn-form" data-path="form">Заказать
+                        звонок</button>
+                </form>
+            </div>
+            <div class="alert">
+                <h3>Спасибо!</h3>
+                <p>Мы постараемся перезвонить Вам как можно скорее!</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.inputmask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-
 </html>
