@@ -42,6 +42,10 @@
         left: 235px;
     }
 
+    .how__container {
+        padding: 169px 288px 241px;
+    }
+
     .sign-up__title::before {
         top: 130px;
     }
@@ -393,10 +397,6 @@
         background-position: center;
     }
 
-    .how__container {
-        padding: 169px 288px 241px;
-    }
-
     .how__title::before {
         top: 90px;
     }
@@ -659,6 +659,16 @@
         padding: 126px 30px 100px;
     }
 
+    .how__item-2 {
+        background: url(/img/communication.png) no-repeat 564px 11px;
+        background-size: 30%;
+    }
+
+    .how__item-4 {
+        background: url(/img/repeat.png) no-repeat 603px 26px;
+        background-size: 35%;
+    }
+
     .reviews__container {
         padding: 0 30px 100px;
     }
@@ -700,6 +710,11 @@
         padding: 74px 30px 131px;
     }
 
+    .sign-up__container::before {
+        top: 110px;
+        left: 302px;
+    }
+
     .sign-up__info {
         padding: 0;
     }
@@ -710,6 +725,10 @@
 
     .sign-up__title::before {
         top: 190px;
+    }
+
+    .sign-up__title::after {
+        top: -5px;
     }
 
     .form__container {
@@ -726,7 +745,6 @@
     .form__input span {
         font-size: 20px;
     }
-
 }
 
 @media (max-width: 1050px) {
@@ -742,6 +760,11 @@
 
     .header__btn:hover {
         font-size: 14px;
+    }
+
+    .how__item-4 {
+        background: url(/img/repeat.png) no-repeat 503px 26px;
+        background-size: 33%;
     }
 }
 
