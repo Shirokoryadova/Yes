@@ -1165,6 +1165,6 @@ input[type='search']::-webkit-search-results-decoration {
 	width: 550px;
 	height: 350px;
 	background-color: #fff;
-	border: 10px solid var(--red-color);
+	border: 1px solid var(--red-color);
 }
 
