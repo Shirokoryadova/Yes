@@ -100,7 +100,7 @@
     }
 
     .hero {
-        background: url(/img/english_yes.png) no-repeat 16px 61px;
+        background: url(../img/english_yes.png) no-repeat 16px 61px;
         background-size: contain
     }
 
@@ -168,7 +168,7 @@
     }
 
     .situations {
-        background: url(/img/section2-bg-tablet.png) no-repeat 0 0;
+        background: url(../img/section2-bg-tablet.png) no-repeat 0 0;
         background-size: cover;
     }
 
@@ -182,7 +182,7 @@
     }
 
     .situations__title::after {
-        content: url(/img/question-tablet.png);
+        content: url(../img/question-tablet.png);
         top: 103px;
         left: 481px;
     }
@@ -344,7 +344,7 @@
     }
 
     .programm__title::after {
-        content: url(/img/question-tablet.png);
+        content: url(../img/question-tablet.png);
         top: -51px;
         right: 157px;
     }
@@ -392,7 +392,7 @@
     }
 
     .how {
-        background: url(/img/5section-bg.svg) no-repeat 15px 40px;
+        background: url(../img/5section-bg.svg) no-repeat 15px 40px;
         background-size: contain;
         background-position: center;
     }
@@ -409,7 +409,7 @@
     .how__item-1 {
         padding-top: 50px;
         margin-bottom: 79px;
-        background: url(/img/just.png) no-repeat 141px 65px;
+        background: url(../img/just.png) no-repeat 141px 65px;
         background-size: 35%;
     }
 
@@ -420,7 +420,7 @@
 
     .how__item-2 {
         margin-bottom: 68px;
-        background: url(/img/communication.png) no-repeat 336px 11px;
+        background: url(../img/communication.png) no-repeat 336px 11px;
         background-size: 44%;
     }
 
@@ -431,12 +431,12 @@
 
     .how__item-3 {
         margin-bottom: 54px;
-        background: url(/img/practice.png) no-repeat 5px 11px;
+        background: url(../img/practice.png) no-repeat 5px 11px;
         background-size: 48%;
     }
 
     .how__item-4 {
-        background: url(/img/repeat.png) no-repeat 368px 26px;
+        background: url(../img/repeat.png) no-repeat 368px 26px;
         background-size: 35%;
     }
 
@@ -660,12 +660,12 @@
     }
 
     .how__item-2 {
-        background: url(/img/communication.png) no-repeat 564px 11px;
+        background: url(../img/communication.png) no-repeat 564px 11px;
         background-size: 30%;
     }
 
     .how__item-4 {
-        background: url(/img/repeat.png) no-repeat 603px 26px;
+        background: url(../img/repeat.png) no-repeat 603px 26px;
         background-size: 35%;
     }
 
@@ -763,7 +763,7 @@
     }
 
     .how__item-4 {
-        background: url(/img/repeat.png) no-repeat 503px 26px;
+        background: url(../img/repeat.png) no-repeat 503px 26px;
         background-size: 33%;
     }
 }
@@ -830,7 +830,7 @@
     }
 
     .hero__container::after {
-        content: url(/img/bagel-phone.svg);
+        content: url(../img/bagel-phone.svg);
         top: 208px;
         left: 29px;
     }
@@ -880,7 +880,7 @@
     }
 
     .situations {
-        background: url(/img/section2-bg-phone.png) no-repeat 0 -147px;
+        background: url(../img/section2-bg-phone.png) no-repeat 0 -147px;
         background-size: 100% 104%;
     }
 
@@ -1130,7 +1130,7 @@
     }
 
     .how {
-        background: url(/img/5section-bg-phone.png) no-repeat;
+        background: url(../img/5section-bg-phone.png) no-repeat;
         background-size: 100% 100%;
     }
 
@@ -1169,7 +1169,7 @@
     }
 
     .how__item-title-2::before {
-        content: url(/img/arrow.png);
+        content: url(../img/arrow.png);
         position: absolute;
         left: 32px;
         top: 0;
@@ -1188,7 +1188,7 @@
     }
 
     .how__item-title-3::before {
-        content: url(/img/arrow.png);
+        content: url(../img/arrow.png);
         position: absolute;
         left: 42px;
         top: 2px;
@@ -1200,7 +1200,7 @@
     }
 
     .how__item-title-4::before {
-        content: url(/img/arrow.png);
+        content: url(../img/arrow.png);
         position: absolute;
         left: 59px;
         top: 0px;
@@ -1338,7 +1338,7 @@
     }
 
     .sign-up__container::before {
-        content: url(/img/wave-phone.png);
+        content: url(../img/wave-phone.png);
         top: 34px;
         left: 226px;
     }
@@ -1356,7 +1356,7 @@
     }
 
     .sign-up__title::after {
-        content: url(/img/wave-phone.png);
+        content: url(../img/wave-phone.png);
         top: -24px;
         right: 202px;
     }

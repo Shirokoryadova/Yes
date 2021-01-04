@@ -151,7 +151,7 @@ input[type='search']::-webkit-search-results-decoration {
 
 /*Hero*/
 .hero {
-    background: url(/img/english_yes.png) no-repeat 16px 20px;
+    background: url(../img/english_yes.png) no-repeat 16px 20px;
     background-size: contain;
 }
 
@@ -175,7 +175,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .hero__container::after {
-    content: url(/img/bagel.svg);
+    content: url(../img/bagel.svg);
     position: absolute;
     left: 284px;
     top: 257px;
@@ -247,7 +247,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .situations__title::after {
-    content: url(img/question.png);
+    content: url(../img/question.png);
     position: absolute;
     top: 127px;
     left: 662px;
@@ -335,21 +335,21 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .situations__descr-1::before {
-    content: url(/img/01.png);
+    content: url(../img/01.png);
     position: absolute;
     top: 54px;
     right: -58px;
 }
 
 .situations__descr-2::before {
-    content: url(/img/02.png);
+    content: url(../img/02.png);
     position: absolute;
     top: 30px;
     left: -77px;
 }
 
 .situations__descr-3::before {
-    content: url(/img/03.png);
+    content: url(../img/03.png);
     position: absolute;
     top: 81px;
     right: -79px;
@@ -366,7 +366,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .situations__descr-1::after {
-    content: url(/img/wave.svg);
+    content: url(../img/wave.svg);
     position: absolute;
     bottom: 65px;
     right: -46px;
@@ -428,7 +428,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .about__list::after {
-    content: url(/img/wave.svg);
+    content: url(../img/wave.svg);
     position: absolute;
     bottom: -153px;
     right: -43px;
@@ -488,7 +488,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .teachers__list::after {
-    content: url(/img/waves.png);
+    content: url(../img/waves.png);
     position: absolute;
     top: 156px;
     right: -236px;
@@ -500,7 +500,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .teachers__title::after {
-    content: url(/img/bagel-grey.svg);
+    content: url(../img/bagel-grey.svg);
     position: absolute;
     top: -45px;
     right: -236px;
@@ -574,7 +574,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .programm__title::after {
-    content: url(/img/question.png);
+    content: url(../img/question.png);
     position: absolute;
     top: -66px;
     right: 133px;
@@ -645,7 +645,7 @@ input[type='search']::-webkit-search-results-decoration {
 
 /*How*/
 .how {
-    background: url(/img/5section-bg.svg) no-repeat;
+    background: url(../img/5section-bg.svg) no-repeat;
 }
 
 .how__container {
@@ -683,11 +683,11 @@ input[type='search']::-webkit-search-results-decoration {
     justify-content: flex-end;
     display: flex;
     margin-bottom: 72px;
-    background: url(/img/just.png) no-repeat 186px 65px;
+    background: url(../img/just.png) no-repeat 186px 65px;
 }
 
 .how__item-1::after {
-    content: url(/img/waves.png);
+    content: url(../img/waves.png);
     position: absolute;
     top: 34px;
     right: -36px;
@@ -697,20 +697,20 @@ input[type='search']::-webkit-search-results-decoration {
     position: relative;
     display: flex;
     margin-bottom: 86px;
-    background: url(/img/communication.png) no-repeat 526px 57px;
+    background: url(../img/communication.png) no-repeat 526px 57px;
 }
 
 .how__item-3 {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 77px;
-    background: url(/img/practice.png) no-repeat 5px 62px;
+    background: url(../img/practice.png) no-repeat 5px 62px;
 }
 
 .how__item-4 {
     position: relative;
     display: flex;
-    background: url(/img/repeat.png) no-repeat 552px 72px;
+    background: url(../img/repeat.png) no-repeat 552px 72px;
 }
 
 .how__item-2::before {
@@ -749,7 +749,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .how__item-about-4::before {
-    content: url(/img/bagel.svg);
+    content: url(../img/bagel.svg);
     position: absolute;
     top: -41px;
     left: -116px;
@@ -762,7 +762,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .how__item-title::before {
-    content: url(/img/arrow.png);
+    content: url(../img/arrow.png);
     position: absolute;
     left: -36px;
     top: -1px;
@@ -814,7 +814,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .reviews__slider-container::after {
-    content: url(/img/waves.png);
+    content: url(../img/waves.png);
     position: absolute;
     right: -100px;
     top: 15px;
@@ -906,7 +906,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .sign-up__container::before {
-    content: url(/img/wave.svg);
+    content: url(../img/wave.svg);
     position: absolute;
     top: 149px;
     left: 743px;
@@ -934,7 +934,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .sign-up__title::after {
-    content: url(/img/wave.svg);
+    content: url(../img/wave.svg);
     position: absolute;
     top: -279px;
     right: -14px;
@@ -961,7 +961,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .sign-up__descr::after {
-    content: url(/img/circles-blue.png);
+    content: url(../img/circles-blue.png);
     position: absolute;
     top: -272px;
     right: -79px;
@@ -990,7 +990,7 @@ input[type='search']::-webkit-search-results-decoration {
 .footer__socials--yt,
 .footer__socials--ok {
     display: inline-block;
-    background: url(/img/socials-sprite.png) no-repeat;
+    background: url(../img/socials-sprite.png) no-repeat;
     cursor: pointer;
     transition: width ease-in-out 0.4s, height ease-in-out 0.4s;
 }
