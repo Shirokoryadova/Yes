@@ -218,7 +218,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .hero__descr::after {
-    content: url(/img/wave.svg);
+    content: url(img/wave.svg);
     position: absolute;
     top: 483px;
     right: 390px;
@@ -234,7 +234,7 @@ input[type='search']::-webkit-search-results-decoration {
 
 /*Situations*/
 .situations {
-    background: url(/img/section2-bg.png) no-repeat 0 -227px;
+    background: url(img/section2-bg.png) no-repeat 0 -227px;
 }
 
 .situations__container {
@@ -247,7 +247,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .situations__title::after {
-    content: url(/img/question.png);
+    content: url(img/question.png);
     position: absolute;
     top: 127px;
     left: 662px;
