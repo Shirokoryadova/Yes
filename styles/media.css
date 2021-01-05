@@ -965,7 +965,7 @@
     }
 
     .situations__img {
-        width: 100%;
+        min-width: 100%;
     }
 
     .situations__img-2,
@@ -1227,7 +1227,7 @@
     }
 
     .how__item-img {
-        width: 100%;
+        min-width: 100%;
     }
 
     .how__item-img-2,
